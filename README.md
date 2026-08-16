@@ -1,5 +1,8 @@
 # libraryapi-mcp
 
+<!-- Links this package to its entry in the official MCP registry -->
+mcp-name: dev.libraryapi/libraryapi-mcp
+
 MCP server for [libraryapi.dev](https://libraryapi.dev) — US public library data for AI agents.
 
 Expose library lookups as tools to any MCP-compatible AI assistant (Claude, Cursor, Copilot, etc.). Built on the federal IMLS Public Libraries Survey — public domain, commercially usable.

@@ -3,7 +3,7 @@
   "name": "dev.libraryapi/libraryapi-mcp",
   "title": "LibraryAPI",
   "description": "US public libraries and branches near any address, with collections from the IMLS survey",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "websiteUrl": "https://libraryapi.dev",
   "repository": {
     "url": "https://github.com/library-api/libraryapi-mcp",
@@ -13,7 +13,7 @@
     {
       "registryType": "pypi",
       "identifier": "libraryapi-mcp",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "transport": {
         "type": "stdio"
       },
