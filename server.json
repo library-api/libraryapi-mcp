@@ -1,0 +1,31 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "dev.libraryapi/libraryapi-mcp",
+  "title": "LibraryAPI",
+  "description": "US public libraries and branches near any address, with collections from the IMLS survey",
+  "version": "0.1.1",
+  "websiteUrl": "https://libraryapi.dev",
+  "repository": {
+    "url": "https://github.com/library-api/libraryapi-mcp",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "libraryapi-mcp",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "LIBRARYAPI_KEY",
+          "description": "API key from https://libraryapi.dev (free tier: 500 requests/month)",
+          "isRequired": true,
+          "isSecret": true,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}
